@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+
+
+table, td, th {
+    border: 1px solid #aaa;
+    overflow: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align:left;
+    padding: 5px;
+    height: 50px;
+}
+
+.form {
+    margin-top: 20px;
+    width:130%;
+}
